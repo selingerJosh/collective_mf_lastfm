@@ -33,14 +33,23 @@ df_user_artist_spr = spr.Dataset.load_from_df(df_user_artist[['userID','artistID
 train, test = spr.model_selection.train_test_split(df_user_artist_spr, test_size=.20)
 
 # We'll use the famous SVD algorithm.
-algo = spr.SVD()
-algo_other = spr.prediction_algorithms.matrix_factorization.NMF(biased = True, verbose = True)
+algo_svd = spr.prediction_algorithms.matrix_factorization.SVD(biased = True, verbose = True)
+algo_pmf = spr.prediction_algorithms.matrix_factorization.SVD(biased = False, verbose = True)
 # Train the algorithm on the trainset, and predict ratings for the testset
-algo.fit(train)
-algo_other.fit(train)
-predictions = algo.test(test)
-predictions_other = algo_other(test)
+algo_svd.fit(train)
+algo_pmf.fit(train)
+predictions = algo_svd.test(test)
+predictions_other = algo_pmf.test(test)
 
 # Then compute RMSE
-spr.accuracy.rmse(predictions)
-spr.accuracy.rmse(predictions_other)
+print('SVD: ',spr.accuracy.rmse(predictions))
+print('PMF: ',spr.accuracy.rmse(predictions_other))
+
+
+#loop over
+for l in [0.2,0.02,0.002,0.0002]:
+    algo_svd = spr.prediction_algorithms.matrix_factorization.SVD(biased=True,  reg_all = l)
+    algo_svd.fit(train)
+    predictions = algo_svd.test(test)
+    print('SVD: ', spr.accuracy.rmse(predictions))
+

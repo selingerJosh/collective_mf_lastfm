@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8870c5b3-c6e5-4ea3-99c7-7435488d00fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/61D5C8F3" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/61D5C8F3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A2683F65/334B06AC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A2683F65/334B06AC-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A2683F65/CE23162D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A2683F65/CE23162D-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A2683F65/lock_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/principles_assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/principles_assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collective_mf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/import.py" beforeDir="false" afterPath="$PROJECT_DIR$/import.py" afterDir="false" />
     </list>
@@ -33,7 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auto_gui_claims" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -89,6 +83,10 @@
       <workItem from="1586527430898" duration="1261000" />
       <workItem from="1588848920634" duration="4705000" />
       <workItem from="1588892775365" duration="657000" />
+      <workItem from="1589798137841" duration="4497000" />
+      <workItem from="1589813256391" duration="587000" />
+      <workItem from="1589848556989" duration="755000" />
+      <workItem from="1589960499147" duration="11095000" />
     </task>
     <servers />
   </component>
