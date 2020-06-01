@@ -53,3 +53,8 @@ for l in [0.2,0.02,0.002,0.0002]:
     predictions = algo_svd.test(test)
     print('SVD: ', spr.accuracy.rmse(predictions))
 
+
+
+
+from funk_svd.dataset import fetch_ml_ratings
+test = fetch_ml_ratings(variant='100k')

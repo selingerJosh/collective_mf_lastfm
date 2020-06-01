@@ -13,10 +13,6 @@ import ml_metrics as metrics
 from statsmodels.stats.multicomp import (pairwise_tukeyhsd,
                                          MultiComparison)
 
-
-
-]
-
 ################# raw import
 df_user_artist = pd.read_csv("data/user_artists.dat", sep = '\\t', engine='python')
 
@@ -262,6 +258,3 @@ pred_val_col_mf_pca = m_col_mf_pca.predict(ratings_val_users_items['UserId'], ra
 print(rm.mse(ratings_val_users_items['Rating'], pred_val_col_mf_pca))
 
 
-# 379 secs vs 8 sec  rmse 1.01 vs 877
-# 135 secs 1.004 9410,1629    1888 534
-#  91 secs 1.0033  9410,1112      1888,383

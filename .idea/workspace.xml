@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8870c5b3-c6e5-4ea3-99c7-7435488d00fd" name="Default Changelist" comment="" />
+    <list default="true" id="8870c5b3-c6e5-4ea3-99c7-7435488d00fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/.Rhistory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/61D5C8F3" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/61D5C8F3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/INDEX" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/prop/INDEX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-4B8D12C1/334B06AC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-4B8D12C1/334B06AC-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-4B8D12C1/CE23162D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-4B8D12C1/CE23162D-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-4B8D12C1/lock_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/1535A39E" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/1535A39E-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/1A416B66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/1A416B66-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/374223CC-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/49040ECC-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/4BBA106C-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/689B4B33-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/71952AFC-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/74A4848A-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/93F02309-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/97394737" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/97394737-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/BEB0CE3A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/BEB0CE3A-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/DAD058C7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/DAD058C7-contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/lock_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/sources/s-A8134DA7/restart_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/41B2DB56/viewer-cache/B8451189.Rdata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collective_mf.py" beforeDir="false" afterPath="$PROJECT_DIR$/collective_mf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/import.py" beforeDir="false" afterPath="$PROJECT_DIR$/import.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +55,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../invoice_rpa" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -83,6 +115,13 @@
       <workItem from="1589813256391" duration="587000" />
       <workItem from="1589848556989" duration="755000" />
       <workItem from="1589960499147" duration="11328000" />
+      <workItem from="1590113119218" duration="20245000" />
+      <workItem from="1590155527943" duration="4447000" />
+      <workItem from="1590194847146" duration="35977000" />
+      <workItem from="1590281933527" duration="25040000" />
+      <workItem from="1590365868610" duration="12739000" />
+      <workItem from="1590459973044" duration="2932000" />
+      <workItem from="1590623481615" duration="28000" />
     </task>
     <servers />
   </component>
